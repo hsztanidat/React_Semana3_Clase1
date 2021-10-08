@@ -1,38 +1,85 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.TimesNewRoman {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.White {
+  margin: 0;
+  color:white;
+}
+
+.Title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+
+
+#Square {
+  margin: 0px;
+  background-color: #842bd7;
+  border-radius: 70px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:300px;
+  height: 240px;
+}
+
+#Container {
+  width: 200px;
+}
+
+#Rectangle {
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px;
+  align-items: center;
+  font-size: 70px;
+  margin: 0px;
+  height: 100px;
+  width: 300px;
+  background-color: yellow;
+}
+
+#Triangles {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(135deg, #842bd7 50%, skyblue 50%);
+}
+
+.LeftContainer {
+  margin :100px;
+}
+
+#RightContainer {
+  
+  display: grid;
+  grid-template-columns: repeat(2,400px);
+  column-gap: 80px;
+  row-gap: 90px;
+}
+
+.CardText {
+  width: 400px;
+}
+
+.CardImg {
+  margin: 20px;
+  width: 47px;
+  height: 47px;
+}
+
+.HeadContainer {
+  align-items: center;
+  display: flex;
 }
